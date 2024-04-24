@@ -395,7 +395,6 @@ background-color: darkblue;
 }
 .nsImg{
     width: 100%;
-    height: 500px;
 }
 .nsButton{
     margin: 50px;
@@ -438,6 +437,7 @@ footer{
 }
 .fInput{
     padding: 5px;
+    outline: none;
 }
 .fButton{
     padding: 5px;
@@ -455,7 +455,7 @@ footer{
     border-radius: 5px;
 }
 .copyright{
-    font-weight: 300;
+    font-weight: 360;
     font-size: 14px;
 }
 
@@ -613,5 +613,95 @@ footer{
     }
     .payment{
         width: 90%;
+    }
+}
+@media (min-width: 554px) and (max-width: 1036px){
+    .navBottom{
+        margin: 0 30px;
+        justify-content: space-between;
+    }
+    .slider{
+        clip-path: none;
+    }
+    .sliderTitle{
+        top: 15%;
+        right: 5%;
+        font-size: 3.5rem;
+    }
+    .buyButton{
+        top: 50%;
+        right: 5%;
+        font-size: 2rem;
+    }
+    .sliderPrice{
+        top: unset;
+        left: 5%;
+        bottom: 5%;
+        backdrop-filter: blur(100px);
+    }
+    .product{
+        height: 75vh;
+        align-items: center;
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    }
+    .productDetails{
+        right: 5%;
+        padding: 15px 30px;
+        width: 45%;
+    }
+    .productImg{
+        width: 45%;
+    }
+    .productTitle{
+        font-size: 3rem;
+    }
+    .productDesc{
+        font-size: 1.2rem;
+    }
+    .productButton{
+        font-size: 0.9rem;
+    }
+    .colors{
+        justify-content: center;
+        margin-right: 0;
+    }
+    .sizes{
+        padding: 0 20px;
+    }
+    .size{
+        display: flex;
+        gap: 20px;
+        font-size: 0.7rem;
+        padding: 5px 15px;
+    }
+    .gallery {
+        padding: 30px;
+    }
+    .galleryItem{
+        padding: 25px;
+    }
+    .galleryTitle{
+        font-size: 1.3rem;
+    }
+    .nsTitle{
+        font-size: 0.8rem;
+        margin-top: 25px;
+    }
+    .nsButton{
+        margin: 20px;
+        font-size: 0.7rem;
+    }
+    .fMenuTitle{
+        font-size: 1.2rem;
+    }
+    .fInput{
+        width: 60%;
+        font-size: 0.7rem;
+    }
+    .fInput::placeholder{
+        font-size: 0.7rem;
+    }
+    .fButton{
+        font-size: 0.6rem;
     }
 }
