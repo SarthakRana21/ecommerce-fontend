@@ -211,6 +211,8 @@ nav{
 }
 
 .payment{
+    top: 45%;
+    position: fixed
     width: 500px;
     height: 600px;
     background-color: white;
