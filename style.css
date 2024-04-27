@@ -215,7 +215,7 @@ nav{
     width: 500px;
     height: 600px;
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
