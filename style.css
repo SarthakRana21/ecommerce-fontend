@@ -228,6 +228,7 @@ nav{
     box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.3);
     display: none;
     transition: 0.5s ease all;
+    z-index: 999;
 }
 .payTitle{
     font-size: 24px;
@@ -529,7 +530,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 90vh;
+        height: 95vh;
     }
     .productImg{
         margin: 20px 0 0 0 ;
@@ -641,7 +642,7 @@ footer{
         backdrop-filter: blur(100px);
     }
     .product{
-        height: 75vh;
+        height: 100vh;
         align-items: center;
         clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     }
