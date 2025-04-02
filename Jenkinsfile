@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/SarthakRana21/ecommerce-fontend.git'
+                git branch: 'main', url: 'https://github.com/SarthakRana21/ecommerce-fontend.git'
             }
         }
 
