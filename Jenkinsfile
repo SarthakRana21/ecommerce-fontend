@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh 'sudo docker run -dit -p 8081:8081 $DOCKER_IMAGE'
+                    sh 'sudo docker run -dit -p 3000:3000 $DOCKER_IMAGE'
                 }
             }
         }
