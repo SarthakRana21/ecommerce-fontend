@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/SarthakRana21/ecommerce-fontend.git'
+                git clone 'https://github.com/SarthakRana21/ecommerce-fontend.git'
             }
         }
 
